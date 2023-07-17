@@ -1,0 +1,27 @@
+header .container{
+    background-color: var(--header-bg);
+}
+
+.fsection .box h1 span{
+    color: var(--main-active) !important;
+}
+.btns{
+    background-color: var(--main-active);
+    padding: 10px 30px;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+.btns:hover{
+    color: var(--main-active);
+    background-color: var(--h-color);
+}
+@media (max-width:992px){
+    .fsection .box h1 {
+        width: 100% !important;
+    }
+    .fsection img{
+        height: 300px !important;
+    }
+}

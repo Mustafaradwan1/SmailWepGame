@@ -1,0 +1,14 @@
+.navbar-brand{
+    border-right: 1px solid #494949;
+}
+.nav-link{
+    transition: .3s;
+    color: var( --p-color) !important;
+}
+.nav-link.active{
+    color: var(--main-active) !important;
+}
+.nav-link:hover{
+    color: var(--main-active) !important;
+}
+

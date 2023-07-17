@@ -1,0 +1,59 @@
+.secSection,
+.thrSection{
+background-color: var(--main-bg);
+position: relative;
+padding: 40px 40px 50px 40px;
+border-radius: 28px;
+margin-bottom: 50px;
+}
+.secSection h2 span:nth-child(1),
+.thrSection h2 span:nth-child(1)
+{
+    color: #fff !important;
+    text-decoration:underline  !important;
+}
+.secSection h2 span:nth-child(2),
+.thrSection h2 span:nth-child(2)
+{
+    color: var(--main-active) !important;
+    margin-left: 10px;
+}
+
+.secSection .row .col .box{
+    background-color: var(--header-bg);
+    border-radius: 35px;
+}
+.secSection .row .col .image img{
+    border-radius: 25px;
+}
+.secSection .frist span i{
+    color: gold !important;
+    margin-right: 5px;
+}
+.secSection  .sec span i{
+    color: var(--main-active) !important;
+    margin-right: 5px;
+}
+@media (max-width:600px){
+    .secSection .row .col{
+        width: 100% !important;
+    }
+}
+.secSection button{
+    position: absolute;
+    bottom: -20px;
+    padding: 12px 30px;
+    background-color: var(--main-active);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .3s;
+    font-weight: bold;
+}
+.secSection button:hover{
+    background-color: #fff;
+    color: var(--main-active);
+    
+}

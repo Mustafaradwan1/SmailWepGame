@@ -1,0 +1,52 @@
+.live h2 span{
+    color: var(--main-active);
+}
+.live .row .col{
+    padding: 0 10px;
+}
+.live .row .box{
+    border: 1px solid #a7a7a7c2;
+    box-shadow: 0px 0px 10px -5px #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+.live .row .box .icon{
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.live .row .box .icon i{
+    color: var(--main-active);
+    font-size: 25px;
+}
+.live .row .box h5{
+    color: #fff;
+    margin-bottom: 15px;
+}
+.live .row .box p{
+    color: var(--p-color);
+    line-height: 1.8;
+}
+.live button{
+    text-align: center;
+    background-color: var(--main-active);
+    color: #fff;
+    transition: .3s;
+    padding: 10px 30px ;
+    border-radius: 26px;
+    border: none;
+    outline: none;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+.live button:hover{
+    background-color: #fff;
+    color: var(--main-active);
+}

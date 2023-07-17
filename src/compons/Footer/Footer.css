@@ -1,0 +1,7 @@
+.footer h6 span{
+    transition: .3s;
+    cursor:default;
+}
+.footer h6 span:hover{
+    color: var(--main-active) !important; 
+}

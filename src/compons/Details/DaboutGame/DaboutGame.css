@@ -1,0 +1,59 @@
+.aboutgame{
+    border-radius: 26px;
+    background-color: var(--main-bg);
+}
+
+.name span i{
+    color:gold;
+}
+.title span i{
+    color:var(--main-active);
+}
+.title .titleP{
+    color:var(--p-color);
+}
+.fcol{
+    height: 100px !important;
+}
+.aboutgame .row .box {
+    height: 100px;
+    background-color: var(--header-bg);
+    border-radius: 16px;
+}
+.aboutgame .row .box i{
+    color: var(--main-active);
+}
+
+.aboutgame .row .box .star{
+    color: gold;
+}
+.aboutgame .row .box .image{
+    height: 230px;
+}
+.aboutgame .row .box .image img{
+    height: 100%;
+}
+.aboutgame p{
+    color : var(--p-color);
+    line-height: 1.8;
+}
+.aboutgame p span{
+    color : #fff;
+    transition: .3s;
+}
+.aboutgame p span:hover{
+    color : var(--main-active);
+    cursor: pointer;
+}
+.aboutgame button{
+    background-color: transparent;
+    color: var(--main-active);
+    border: 1px solid var(--main-active);
+    transition: .3s;
+    margin-top: 30px;
+}
+.aboutgame button:hover{
+    background-color: #fff;
+    color: var(--main-active);
+    border: 1px solid  #fff;
+}

@@ -1,0 +1,23 @@
+.other {
+    background-color: var(--main-bg);
+    border-radius: 26px;
+}
+.other .spanp{
+    color: var(--p-color);
+}
+.other .col{
+    height: fit-content;
+}
+.other .star{
+    color: gold;
+}
+.other .download{
+    color: var(--main-active);
+}
+.other .box ul {
+    padding: 0 10px;
+}
+.other .box ul {
+    border-bottom: 1px solid #3d3d3d;
+    padding: 0 0 25px 0;
+}

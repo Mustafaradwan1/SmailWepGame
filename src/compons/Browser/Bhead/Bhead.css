@@ -1,0 +1,86 @@
+.Bhead{
+    overflow: hidden;
+}
+.Bhead .row .dark{
+    background-color: var(--main-bg);
+    border-radius: 26px;
+}
+.Bhead .dark h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.Bhead .dark h2 span{
+    color: var(--main-active);
+}
+.Bhead .row .col {
+  height:fit-content ;
+}
+.Bhead .dark .row .image {
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+.Bhead .dark .row .image img{
+    border-radius: 16px;
+}
+.Bhead .dark .row .up{
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.Bhead .dark .row .up span i{
+    color: gold ;
+    margin-right:5px;
+}
+.Bhead .dark .row .down{
+    color: var(--p-color);
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.Bhead .dark .row .down span i{
+    color: var(--main-active);
+    margin-right:5px;
+}
+.Bhead .dark .row  span{
+color: #fff;
+}
+.Bhead .dark .download img{
+    border-radius: 26px;
+}
+.Bhead .dark .download ul li h6 {
+    margin: 0;
+}
+.Bhead .dark .download ul li p {
+    color: var(--p-color);
+    margin-bottom: 10px;
+}
+.Bhead .dark .download .data .start {
+    color: gold;
+}
+.Bhead .dark .download .data .download {
+    color: var(--main-active);
+}
+.Bhead .dark .download .icon  {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-bg);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Bhead .dark .download .icon .download {
+    color: var(--main-active);
+}
+.Bhead .dark .download ul{
+    border-bottom: 1px solid var(--header-bg);
+}
+.Bhead .dark .download .view{
+    color: var(--main-active);
+    text-align: center;
+    cursor: pointer;
+}
+.slick-prev:before,
+.slick-next:before{
+    display:none;
+}

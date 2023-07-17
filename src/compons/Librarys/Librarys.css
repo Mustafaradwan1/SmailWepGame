@@ -1,0 +1,49 @@
+.thrSection ul li img {
+    border-radius: 26px !important;
+}
+.thrSection ul li span {
+    color: var(--p-color);
+    font-size: 13px;
+}
+.thrSection ul li button{
+    padding: 11px 40px;
+    background-color: transparent;
+    color: var(--p-color);
+    border-radius: 30px;
+    border: 1px solid var(--p-color);
+    transition: .3s;
+    font-weight: bold;
+}
+.thrSection ul li:last-child{
+    width: 19%;
+}
+.thrSection .active{
+    padding: 11px 30px;
+    border: 1px solid var(--main-active);
+    color: var(--main-active);
+    transition: .3s;
+}
+.thrSection .active:hover{
+    padding: 11px 40px;
+
+}
+
+
+.thrSection .btn{
+    position: absolute;
+    bottom: -20px;
+    padding: 12px 30px;
+    background-color: var(--main-active);
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    left: 50%;
+    transform: translate(-50%);
+    transition: .3s;
+    font-weight: bold;
+}
+.thrSection .btn:hover{
+    background-color: #fff;
+    color: var(--main-active);
+    
+}
